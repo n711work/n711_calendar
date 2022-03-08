@@ -1,0 +1,34 @@
+.calendar{
+  width:100%;
+  margin:0 auto;
+}
+/* 日曜日 */
+.fc-sun {
+    color: red;
+    background-color: #fff0f0;
+}
+ 
+/* 土曜日 */
+.fc-sat {
+    color: blue;
+    background-color: #f0f0ff;
+}
+
+#window-close{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  z-index:98;
+}
+
+#mordal{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:99;
+  background:rgba(0,250,0,0.9);
+  padding:30px;
+}
