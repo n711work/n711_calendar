@@ -1,0 +1,27 @@
+<!-- fullcalendar-3.10.0 -->
+<!-- 必要jsの読み込み -->
+<script src='https://fullcalendar.io/releases/fullcalendar/3.9.0/lib/moment.min.js'></script>
+<script src='https://fullcalendar.io/releases/fullcalendar/3.9.0/lib/jquery.min.js'></script>
+<script src="https://school.oohara.jp/oohara/fullcalendar.js"></script>
+
+<link rel="stylesheet" href="https://school.oohara.jp/oohara/fullcalendar.css" type="text/css" />
+<div class="calendar">
+    <div id="cal"></div>
+</div>
+
+<div id="wrapper">
+    <div id="window-close" onclick="window.close()"></div>
+    <div id="mordal">
+        スケジュール<br>
+        <span id="time"></span>
+        <br>
+        <input type="text" id="title">
+        <br>
+        <input type="time" id="startTime">~<input type="time" id="endTime">
+        <br>
+        <input type="text" id="description">
+        <br>
+        <input type="button" value="登録" onclick="window.addCalendarEvent()">
+        <input type="button" value="閉じる" onclick="window.close()">
+    </div>
+</div>
